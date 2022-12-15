@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block namepage %}Sign Up{% endblock %}
+
+{% block contents %}
+<!--Register-->
+<div class="form-register" ALIGN="center">
+    <h1>Registrarse</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="form-group">
+                {{ field }}
+                {% for error in field.errors %}
+                    <div>
+                        {{ error }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <button class="btn btn-primary" type="submit">Registrarse</button>
+        <p><a href="{% url 'login' %}">Iniciar Sesión</a></p>
+        <p><a href="{% url 'homepage' %}">Cancelar</a></p>
+    </form>
+</div>
+
+{% endblock %}

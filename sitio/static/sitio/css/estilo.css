@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-header
+{
+    background: rgb(10, 10, 10);
+    padding: 30px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.img-logo-header
+{
+    padding-left: 0%;
+    padding-top: 0%;
+    width: 200px;
+    height: 75px;
+}
+
+.pocicion-div
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-solicitud
+{
+    width: 20%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    box-shadow: 5px 10px 30px #000;
+}
+
+.solicitud
+{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    box-shadow: 2px 6px 10px #000;
+    word-wrap: break-word;
+}
+
+.lista-publicacion
+{
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    box-shadow: 7px 13px 37px #000;
+}
+
+.publicacion
+{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    box-shadow: 2px 6px 10px #000;
+    word-wrap: break-word;
+}
+
+.comentario
+{
+    width: 75%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: 'Times New Roman';
+    box-shadow: 2px 8px 10px #000;
+    word-wrap: break-word
+}
+
+.form-publicar
+{
+    width: 50%;
+    background: rgba(10, 10, 10, 0.823);
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-comentar
+{
+    width: 50%;
+    background: rgba(10, 10, 10, 0.823);
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register, .form-login
+{
+    width: 500px;
+    background: rgba(10, 10, 10, 0.823);
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.form-register a:hover
+{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.form-register .botons
+{
+    width: 50%;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #0080ff;
+    text-align: left;
+    list-style: none;
+    background-color: #0d6efd;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    border: 0;
+}
